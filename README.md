@@ -449,7 +449,7 @@ This tool supports **PCI DSS Requirement 11.3.4 / 11.4.5** (segmentation penetra
 ## Credits
 
 - Original [nmapAutomator](https://github.com/21y4d/nmapAutomator) by [@21y4d](https://github.com/21y4d)
-- Modernized and expanded by [Neev]
+- Modernized and expanded by [sparmar-Neev]
 
 ---
 
