@@ -1,0 +1,72 @@
+# ═══════════════════════════════════════════════════════════════
+# nmapauto v2.0-PCI — Requirements
+# ═══════════════════════════════════════════════════════════════
+#
+# REQUIRED (must be installed):
+#   nmap >= 7.80        sudo apt install nmap
+#   bash >= 4.0         (pre-installed on all supported platforms)
+#
+# OPTIONAL (auto-detected, gracefully skipped if missing):
+#   Install all at once on Kali/Ubuntu/Debian:
+#
+#   sudo apt update && sudo apt install -y \
+#       sslscan testssl.sh nikto ffuf gobuster feroxbuster whatweb \
+#       enum4linux smbmap smbclient crackmapexec ssh-audit \
+#       snmp-check snmp onesixtyone ldap-utils dnsrecon dnsutils \
+#       smtp-user-enum wpscan joomscan nfs-common
+#
+# ═══════════════════════════════════════════════════════════════
+
+# --- REQUIRED ---
+nmap>=7.80
+
+# --- OPTIONAL: Vulnerability Scanning ---
+# vulners.nse          (nmap NSE script — https://github.com/vulnersCom/nmap-vulners)
+# vulscan              (nmap NSE script — https://github.com/scipag/vulscan)
+
+# --- OPTIONAL: SSL/TLS ---
+# sslscan              sudo apt install sslscan
+# testssl.sh           sudo apt install testssl.sh
+
+# --- OPTIONAL: Web Scanning ---
+# nikto                sudo apt install nikto
+# ffuf                 sudo apt install ffuf
+# gobuster             sudo apt install gobuster
+# feroxbuster          sudo apt install feroxbuster
+# nuclei               https://github.com/projectdiscovery/nuclei
+# whatweb              sudo apt install whatweb
+
+# --- OPTIONAL: CMS Scanners ---
+# wpscan               sudo apt install wpscan
+# joomscan             sudo apt install joomscan
+droopescan
+
+# --- OPTIONAL: SMB/NetBIOS ---
+# enum4linux           sudo apt install enum4linux
+# smbmap               sudo apt install smbmap
+# smbclient            sudo apt install smbclient
+# crackmapexec         sudo apt install crackmapexec
+
+# --- OPTIONAL: SSH ---
+# ssh-audit            sudo apt install ssh-audit
+
+# --- OPTIONAL: SNMP ---
+# snmp-check           sudo apt install snmp-check
+# snmpwalk             sudo apt install snmp
+# onesixtyone          sudo apt install onesixtyone
+
+# --- OPTIONAL: LDAP ---
+# ldapsearch           sudo apt install ldap-utils
+
+# --- OPTIONAL: DNS ---
+# dnsrecon             sudo apt install dnsrecon
+# dig                  sudo apt install dnsutils
+
+# --- OPTIONAL: SMTP ---
+# smtp-user-enum       sudo apt install smtp-user-enum
+
+# --- OPTIONAL: Oracle ---
+# odat                 https://github.com/quentinhardy/odat
+
+# --- OPTIONAL: NFS ---
+# showmount            sudo apt install nfs-common

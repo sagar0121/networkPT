@@ -1,0 +1,13 @@
+# nmapauto — Example IP List
+# One IP per line. Remove this header and add your target IPs.
+# Lines starting with # are ignored by most tools.
+#
+# Usage:
+#   for ip in $(cat ip_list.txt); do ./nmapauto.sh -H $ip -t All -y; done
+
+192.168.1.1
+192.168.1.10
+192.168.1.50
+10.0.0.1
+10.0.0.5
+172.16.0.100

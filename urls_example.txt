@@ -1,0 +1,9 @@
+# nmapauto — Example Domain List
+# One domain per line. Remove this header and add your target domains.
+#
+# Usage:
+#   while read -r domain; do ./nmapauto.sh -H "$domain" -t All -y; done < urls.txt
+
+example.com
+app.example.com
+staging.example.org
